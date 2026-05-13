@@ -10,7 +10,7 @@
   %=====
   % 秘级
   %=====
-  statesecrets={公开},
+  statesecrets={},
   natclassifiedindex={TM301.2},
   intclassifiedindex={62-5},
   %
@@ -61,13 +61,13 @@
   estudenttype={Master of Art},
   %
   % 关键词用“英文逗号”分割
-  ckeywords={大语言模型推理, 错误识别, 数据增强},
-  ekeywords={Large Language Model Reasoning, Error Identification, Data Augmentation},
+  ckeywords={大语言模型推理, 错误识别, 强化学习},
+  ekeywords={Large Language Model Reasoning, Error Identification, Reinforcement Learning},
 }
 
 \begin{cabstract}
-近年来，大语言模型问答系统、多模态交互、代码生成等诸多任务中取得了突破性进展，展现出较强的语言理解、知识整合与问题求解能力。
-然而，大模型可能出现的的错误制约其在实际场景中的应用。尤其是在需要多步推理的任务中，大语言模型不仅可能在最终答案上出现偏差，
+近年来，大语言模型在问答系统、多模态交互、代码生成等诸多任务中取得了突破性进展，展现出较强的语言理解、知识整合与问题求解能力。
+然而，大模型可能出现的错误制约其在实际场景中的应用。尤其是在需要多步推理的任务中，大语言模型不仅可能在最终答案上出现偏差，
 还可能在推理链条的中间环节产生错误，推理中错误会逐步累积并放大，最终影响模型结果的可靠性与可解释性。
 现有问答场景下的大语言模型错误检测与训练大多关注结果的正确性，而未对推理过程中可能产生的错误给予足够的重视，即使模型给出了看似正确的答案，
 其推理过程仍可能存在问题，从而使模型产生可能的结果与过程不对齐，进而限制了大语言模型在高可靠性场景中的进一步应用。

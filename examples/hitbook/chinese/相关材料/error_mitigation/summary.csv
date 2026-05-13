@@ -1,0 +1,6 @@
+dataset,label,ssrl_final_step,ssrl_final_accuracy,reflection_tuned_ssrl_ours_final_step,reflection_tuned_ssrl_ours_final_accuracy,final_diff_ours_minus_ssrl,ssrl_best_step,ssrl_best_accuracy,reflection_tuned_ssrl_ours_best_step,reflection_tuned_ssrl_ours_best_accuracy,best_diff_ours_minus_ssrl
+popqa,PopQA,1324,0.31240001,1324,0.33219999,0.01979998,1056,0.32679999,1040,0.34660000,0.01980001
+musique,MuSiQue,1324,0.15760000,1324,0.16460000,0.00700000,1136,0.16460000,960,0.17020001,0.00560001
+hotpotqa,HotpotQA,1324,0.28720000,1324,0.29080001,0.00360000,800,0.30320001,1312,0.29620001,-0.00700000
+bamboogle,BamboogleQA,1324,0.27280000,1324,0.26560000,-0.00720000,32,0.33372000,1040,0.34400001,0.01028001
+nq,NQ,1324,0.31420001,1324,0.29260001,-0.02160001,1296,0.31420001,1056,0.29800001,-0.01620001

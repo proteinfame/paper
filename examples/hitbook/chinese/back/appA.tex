@@ -1,72 +1,275 @@
-% -*-coding: utf-8 -*-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{带章节的附录}[Full Appendix]%
-完整的附录内容，包含章节，公式，图表等
+% !Mode:: "TeX:UTF-8"
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{附录节的内容}[Section in Appendix]
-这是附录的节的内容
+\chapter{实验说明与补充材料}
+\label{chap:appendix-experiment-details}
 
-附录中图的示例：
-\begin{figure}[htbp]
-\centering
-\includegraphics[width = 0.4\textwidth]{golfer}
-%\bicaption[golfer5]{}{\xiaosi[0]打高尔夫球的人}{Fig.$\!$}{The person playing golf}\vspace{-1em}
-\caption{\xiaosi[0]打高尔夫球的人}
-\end{figure}
 
-附录中公式的示例：
-\begin{align}
-a & = b \times c \\
-E & = m c^2
-\label{eq}
-\end{align}
 
-\chapter{这个星球上最好的免费Linux软件列表}[List of the Best Linux Software in our Planet]
-\section{系统}
+\section{提示词模板}
 
-\href{http://fvwm.org/}{FVWM自从上世纪诞生以来，此星球最强大的窗口管理器。}
-推荐基于FVWM的桌面设计hifvwm：\href{https://github.com/dustincys/hifvwm}{https://github.com/dustincys/hifvwm}。
+本节给出错误识别、反馈再生成和 SSRL 自检索问答实验中使用的提示词模板。
 
-\subsection{hifvwm的优点}
+\subsection{验证模型提示词}
 
-\begin{enumerate}
-	\item 即使打开上百个窗口也不会“蒙圈”，对比win或mac都无法做到。计算机性能越来越强大，窗口任务的管理必须要升级到打怪兽级别。
-	\item 二维可视化任务栏。
-	\item 自动同步Bing搜索主页的壁纸。每次电脑开机，午夜零点自动更新，用户
-		也可以手动更新，从此审美再也不疲劳。
-	\item 切换窗口自动聚焦到最上面的窗口。使用键盘快捷键切换窗口时候，减少
-		操作过程，自动聚焦到目标窗口。这一特性是虚拟窗口必须的人性化设
-		计。
-	\item 类似window右下角的功能的最小化窗口来显示桌面的功能此处类似
-		win7/win10，实现在一个桌面之内操作多个任务。
-	\item 任务栏结合标题栏。采用任务栏和标题栏结合，节省空间。
-	\item 同类窗口切换。可以在同类窗口之内类似alt-tab的方式切换。
-	\item ……
-\end{enumerate}
+\begin{lstlisting}[basicstyle=\ttfamily\small,breaklines=true,columns=fullflexible,frame=single,framerule=0.4pt,xleftmargin=1em,xrightmargin=1em]
+You are a professional quality evaluator for a Q&A system. Your task is to analyze an AI model's "think-retrieve-answer" process, determine if any errors exist in any part of the process, and analyse ALL errors throughout the entire process. If the model thinks it lacks knowledge, it will search using <search>query</search> and then produce its own generated information <information>information</information>, and use information above to answer, which means it does not retrieve from any external data source but answers by itself.
 
-\section{其他}
+Input Format
+You will receive the following information:
 
-\href{https://github.com/goldendict/goldendict}{goldendict 星球最强大的桌面字典。}
+Question: The user's original question
+Model Output: The model's complete think-retrieve-answer process
+Ground Truth: The correct answer
 
-\href{https://github.com/yarrick/iodine}{iodine，“HIT-WLAN + 锐捷”时代的福音。}
+Your Task
+Please analyze according to the following steps:
 
-\href{http://www.aircrack-ng.org/}{aircrack，Wifi“安全性评估”工具，自由上网，
-  就是隔壁寝室网络会变慢一点。}
+Step 1: Review
+Review model's "think-retrieve-answer" process, judging whether process is correct.
 
-\href{https://www.ledger-cli.org/}{ledger，前“金融区块链”时代最好的复式记账系统。}
+Step 2: Error Explanation
+For each error, briefly explain why the specific step is wrong and what the correct approach/information should be. Since the model does not retrieve from any external data source but answers by itself, you should not mention using other source information in the feedback, but instead guide it to generate the correct reasoning, query, and corresponding correct information.
 
-\href{https://orgmode.org/}{orgmode，最强大的笔记系统，从来没有之一。}
+Output Format (Strict JSON)
+For error samples, output:
 
-\href{https://www.jianguoyun.com/}{坚果云，国内一款支持WebDav的云盘系统，国内真正的云盘没有之一。}
+{{
+  "step_by_step_analysis": "review the 'think-retrieve-answer' process and explain your reasoning",
+  "has_error": true,
+  "error_description": "describe each error content in detail.",
+  "reflection_feedback": "guide how to fix errors above"
+}}
 
-\href{https://notmuchmail.org/}{notmuch, 目前最好的邮件管理工具，还在为每天几百
-  个email苦恼？几百个这些都不算多，notmuch。}
+For correct samples, output:
 
-\section{vim}
-实现中英文每一句一行，以及实现每一句折叠断行的简单正则式，tex源码更加乖乖。
-\begin{lstlisting}
-vnoremap <leader>fae J:s/[.!?]\zs\s\+/\="\r".matchstr(getline('.'), '^\s*')/g<CR>
-vnoremap <leader>fac J:s/[。！？]/\=submatch(0)."\n".matchstr(getline('.'), '^\s*')/g<CR>
-vnoremap <leader>fle :!fmt -80 -s<CR>
+{{
+  "step_by_step_analysis": "review the 'think-retrieve-answer' process and explain your reasoning",
+  "has_error": false,
+  "verification": "Briefly explain why each step is correct"
+}}
+
+Now please analyze the following sample:
+
+Question: {question}
+
+Model Output: {model_output}
+
+Ground Truth: {ground_truth}
+
+Please output your final analysis result strictly in the JSON format specified above.
 \end{lstlisting}
+
+\subsection{反馈再生成提示词}
+
+\begin{lstlisting}[basicstyle=\ttfamily\small,breaklines=true,columns=fullflexible,frame=single,framerule=0.4pt,xleftmargin=1em,xrightmargin=1em]
+You are answering a question using a think-retrieve-answer format.
+
+Before answering, carefully read the verifier's feedback below. The feedback identifies errors in a previous model's reasoning, generated search information, and final answer. You must avoid repeating those errors.
+
+verifier Feedback:
+{evaluation}
+
+Now answer the given question step by step. Start by reasoning inside <think>Your thought</think>. Evert time you get new information, you should reason again using <think>Your thought</think>. If you lack knowledge, search using <search>Your query</search> and return the top three results in <information>Your information</information>. You can search multiple times as needed and each search should only search for one information about only one entity. For questions concerning more than one entities, break them down into steps and search for each piece of information. Finally, provide your answer in <answer>Your answer</answer> without detailed explanations, for example, <answer>Beijing</answer>. Let's search step by step.
+
+Question: {question}
+
+\end{lstlisting}
+
+\subsection{SSRL 自检索问答提示词}
+
+\begin{lstlisting}[basicstyle=\ttfamily\small,breaklines=true,columns=fullflexible,frame=single,framerule=0.4pt,xleftmargin=1em,xrightmargin=1em]
+Answer the given question. You must conduct reasoning inside <think> and </think> first every
+time you get new information. After reasoning, if you find you lack some knowledge, you can call a
+search engine by <search> query </search>, and you should return the top searched results between <information> and </information>. You can search as many times as you want. For
+multi-hop QA, you can break it down into pieces and search one by one. If you find no further external
+knowledge needed, you can directly provide the answer inside <answer> and </answer> without detailed illustrations. For example, <answer> Beijing </answer>. Question:
+\end{lstlisting}
+
+\section{错误识别实验详细结果}
+
+表~\ref{tab:appendix-error-detect-prm} 给出了基于 Qwen2.5-Math-PRM-7B 的 PRM 异常检测结果。
+该方法使用 Z-score 与全局阈值识别异常低分片段，并将存在异常片段的样本判定为错误样本。
+
+\begin{table}[htbp]
+\caption{PRM 异常检测方法的错误识别结果}
+\label{tab:appendix-error-detect-prm}
+\vspace{0.5em}\centering\wuhao
+\begin{tabular}{lr}
+\toprule
+指标 & 数值 \\
+\midrule
+TP & 314 \\
+FP & 20 \\
+TN & 442 \\
+FN & 1214 \\
+Accuracy & 0.3799 \\
+Precision & 0.9401 \\
+Recall & 0.2055 \\
+F1-Score & 0.3373 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+表~\ref{tab:appendix-error-detect-judge} 给出了不同评判模型在测试集上的三次测试汇总结果，
+表中数值为三次运行的平均值，并作为正文表~\ref{tab:error-detect-judge-main} 的数据来源。
+
+\begin{table}[htbp]
+\caption{不同评判模型三次测试的错误识别汇总结果}
+\label{tab:appendix-error-detect-judge}
+\vspace{0.5em}\centering\wuhao
+\begin{tabular}{lcccc}
+\toprule
+模型 & Accuracy & Precision & Recall & F1-Score \\
+\midrule
+Qwen2.5-3B-Reflection & 0.8318 & 0.8880 & 0.8937 & 0.8908 \\
+Qwen2.5-3B-Instruct & 0.8203 & 0.8632 & 0.9101 & 0.8860 \\
+Qwen2.5-7B-Instruct & 0.7824 & 0.8010 & 0.9535 & 0.8706 \\
+Qwen2.5-3B-SSRL & 0.6625 & 0.9235 & 0.6111 & 0.7355 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{错误缓解实验详细结果}
+
+表~\ref{tab:ssrl-config}给出了自检索强化学习使用的超参数。
+
+\begin{table}[htbp]
+\caption{自检索强化学习使用超参数}
+\label{tab:ssrl-config}
+\vspace{0.5em}\centering\wuhao
+\begin{tabular}{lc}
+\toprule
+参数 & 取值 \\
+\midrule
+rollout数 & 5 \\
+学习率 & 1e-6 \\
+epoch & 2 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+表~\ref{tab:appendix-error-mitigation-final} 给出了训练完成检查点上的测试集准确率对比。
+与正文表~\ref{tab:error-mitigation-final-main} 相比，本表进一步列出两个方法对应的训练步数和准确率差值，
+用于说明 final checkpoint 是训练结束后的同一步结果。
+
+\begin{table}[htbp]
+\caption{训练完成检查点上的测试集准确率详细对比}
+\label{tab:appendix-error-mitigation-final}
+\vspace{0.5em}\centering\wuhao
+\begin{tabular}{lccccc}
+\toprule
+数据集 & SSRL步数 & SSRL & 本文方法步数 & 本文方法 & 差值 \\
+\midrule
+PopQA & 1324 & 0.3124 & 1324 & 0.3322 & 0.0198 \\
+MuSiQue & 1324 & 0.1576 & 1324 & 0.1646 & 0.0070 \\
+HotpotQA & 1324 & 0.2872 & 1324 & 0.2908 & 0.0036 \\
+BamboogleQA & 1324 & 0.2728 & 1324 & 0.2656 & -0.0072 \\
+NQ & 1324 & 0.3142 & 1324 & 0.2926 & -0.0216 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+表~\ref{tab:appendix-error-mitigation-best} 给出了训练过程中最佳检查点上的测试集准确率对比。
+与正文表~\ref{tab:error-mitigation-best-main} 相比，本表补充最佳检查点出现的训练步数，
+用于观察不同方法在强化学习过程中的最优性能出现位置。
+
+\begin{table}[htbp]
+\caption{最佳检查点上的测试集准确率详细对比}
+\label{tab:appendix-error-mitigation-best}
+\vspace{0.5em}\centering\wuhao
+\begin{tabular}{lccccc}
+\toprule
+数据集 & SSRL步数 & SSRL & 本文方法步数 & 本文方法 & 差值 \\
+\midrule
+PopQA & 1056 & 0.3268 & 1040 & 0.3466 & 0.0198 \\
+MuSiQue & 1136 & 0.1646 & 960 & 0.1702 & 0.0056 \\
+HotpotQA & 800 & 0.3032 & 1312 & 0.2962 & -0.0070 \\
+BamboogleQA & 32 & 0.3337 & 1040 & 0.3440 & 0.0103 \\
+NQ & 1296 & 0.3142 & 1056 & 0.2980 & -0.0162 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{多模型协同实验详细结果}
+
+表~\ref{tab:appendix-multi-model-final} 给出了多模型协同流程在第 7 轮结束后的最终累计结果。
+其中，累计 EM 表示从第 0 轮到第 7 轮曾经生成过完全匹配标准答案的样本数，
+EM 率以对应数据源的问题总数为分母；累计验证表示曾经通过验证模型质量检查的样本数，
+验证率同样以数据源问题总数为分母；验证/EM 则刻画已命中标准答案的样本中有多少进一步通过过程质量检查。
+正文表~\ref{tab:multi-model-rates-main} 从本表中抽取数据源、EM 率和验证率三列，
+并将 EM 率表述为准确率。
+
+\begin{table}[htbp]
+\caption{不同数据源上的最终累计结果}
+\label{tab:appendix-multi-model-final}
+\vspace{0.5em}\centering\wuhao
+\begin{tabular}{lrrrrrr}
+\toprule
+数据源 & 总数 & 累计EM & EM率 & 累计验证 & 验证率 & 验证/EM \\
+\midrule
+Bamboogle & 125 & 121 & 96.80\% & 101 & 80.80\% & 83.47\% \\
+HotpotQA & 500 & 447 & 89.40\% & 378 & 75.60\% & 84.56\% \\
+MuSiQue & 500 & 462 & 92.40\% & 348 & 69.60\% & 75.32\% \\
+NQ & 500 & 455 & 91.00\% & 337 & 67.40\% & 74.07\% \\
+PopQA & 500 & 493 & 98.60\% & 334 & 66.80\% & 67.75\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+表~\ref{tab:appendix-multi-model-iteration} 给出了五个数据源在每轮迭代后的总体累计结果。
+其中，轮次 0 对应初始生成阶段，轮次 1 至轮次 7 对应反馈再生成后的累计状态。
+累计 EM 和累计验证分别统计截至当前轮已经达到完全匹配和验证通过的样本数；
+新增验证表示当前轮首次通过验证的样本数，可用于观察迭代反馈带来的边际增益变化。
+
+\begin{table}[htbp]
+\caption{迭代过程中的总体累计结果}
+\label{tab:appendix-multi-model-iteration}
+\vspace{0.5em}\centering\wuhao
+\begin{tabular}{rrrrrr}
+\toprule
+轮次 & 累计EM & EM率 & 累计验证 & 验证率 & 新增验证 \\
+\midrule
+0 & 546 & 25.69\% & 154 & 7.25\% & 154 \\
+1 & 1663 & 78.26\% & 816 & 38.40\% & 662 \\
+2 & 1829 & 86.07\% & 1037 & 48.80\% & 221 \\
+3 & 1897 & 89.27\% & 1193 & 56.14\% & 156 \\
+4 & 1932 & 90.92\% & 1289 & 60.66\% & 96 \\
+5 & 1954 & 91.95\% & 1372 & 64.56\% & 83 \\
+6 & 1963 & 92.38\% & 1444 & 67.95\% & 72 \\
+7 & 1978 & 93.08\% & 1498 & 70.49\% & 54 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+表~\ref{tab:appendix-multi-model-config} 给出了多模型协同可信问答流程的主要超参数设置。
+其中最大迭代轮数控制反馈再生成闭环的执行上限，每轮候选答案数影响候选空间覆盖范围，
+验证模型判断次数和验证接受阈值共同决定质量筛选的稳定性与严格程度。
+
+\begin{table}[htbp]
+\caption{多模型协同可信问答流程的主要超参数}
+\label{tab:appendix-multi-model-config}
+\vspace{0.5em}\centering\wuhao
+\begin{tabular}{lc}
+\toprule
+参数 & 取值 \\
+\midrule
+最大迭代轮数 & 8 \\
+每轮候选答案数 & 6 \\
+验证模型判断次数 & 8 \\
+\texttt{reject@k}阈值 & 0.5 \\
+生成温度 & 0.7 \\
+\texttt{top\_p} & 0.8 \\
+\texttt{top\_k} & 20 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{使用 AI 工具的情况}
+本文在撰写过程中，引言与背景介绍章节（如2.1、3.2、4.1节）使用了 GPT5.5 模型进行语言润色.
+
+
+
+% Local Variables:
+% TeX-master: "../thesis"
+% TeX-engine: xetex
+% End:

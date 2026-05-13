@@ -1,0 +1,841 @@
+dataset,label,model,step,accuracy
+popqa,PopQA,SSRL,0,0.02000833
+popqa,PopQA,SSRL,16,0.11282834
+popqa,PopQA,SSRL,32,0.20353334
+popqa,PopQA,SSRL,48,0.19720000
+popqa,PopQA,SSRL,64,0.19720000
+popqa,PopQA,SSRL,80,0.20739999
+popqa,PopQA,SSRL,96,0.22560000
+popqa,PopQA,SSRL,112,0.20780000
+popqa,PopQA,SSRL,128,0.30340001
+popqa,PopQA,SSRL,144,0.29780000
+popqa,PopQA,SSRL,160,0.29980001
+popqa,PopQA,SSRL,176,0.31220001
+popqa,PopQA,SSRL,192,0.28520000
+popqa,PopQA,SSRL,208,0.29260001
+popqa,PopQA,SSRL,224,0.28360000
+popqa,PopQA,SSRL,240,0.28180000
+popqa,PopQA,SSRL,256,0.28000000
+popqa,PopQA,SSRL,272,0.27820000
+popqa,PopQA,SSRL,288,0.28000000
+popqa,PopQA,SSRL,304,0.28180000
+popqa,PopQA,SSRL,320,0.28720000
+popqa,PopQA,SSRL,336,0.27640000
+popqa,PopQA,SSRL,352,0.28720000
+popqa,PopQA,SSRL,368,0.28000000
+popqa,PopQA,SSRL,384,0.27280000
+popqa,PopQA,SSRL,400,0.28360000
+popqa,PopQA,SSRL,416,0.29080001
+popqa,PopQA,SSRL,432,0.29800001
+popqa,PopQA,SSRL,448,0.29620001
+popqa,PopQA,SSRL,464,0.29060000
+popqa,PopQA,SSRL,480,0.28360000
+popqa,PopQA,SSRL,496,0.29620001
+popqa,PopQA,SSRL,512,0.30340001
+popqa,PopQA,SSRL,528,0.29620001
+popqa,PopQA,SSRL,544,0.29440001
+popqa,PopQA,SSRL,560,0.29440001
+popqa,PopQA,SSRL,576,0.28360000
+popqa,PopQA,SSRL,592,0.28000000
+popqa,PopQA,SSRL,608,0.27820000
+popqa,PopQA,SSRL,624,0.27460000
+popqa,PopQA,SSRL,640,0.27640000
+popqa,PopQA,SSRL,656,0.28180000
+popqa,PopQA,SSRL,672,0.28900000
+popqa,PopQA,SSRL,688,0.28360000
+popqa,PopQA,SSRL,704,0.29440001
+popqa,PopQA,SSRL,720,0.28180000
+popqa,PopQA,SSRL,736,0.28540000
+popqa,PopQA,SSRL,752,0.28180000
+popqa,PopQA,SSRL,768,0.28900000
+popqa,PopQA,SSRL,784,0.30160001
+popqa,PopQA,SSRL,800,0.28900000
+popqa,PopQA,SSRL,816,0.30160001
+popqa,PopQA,SSRL,832,0.30700001
+popqa,PopQA,SSRL,848,0.30340001
+popqa,PopQA,SSRL,864,0.29980001
+popqa,PopQA,SSRL,880,0.29260001
+popqa,PopQA,SSRL,896,0.29440001
+popqa,PopQA,SSRL,912,0.29620001
+popqa,PopQA,SSRL,928,0.28180000
+popqa,PopQA,SSRL,944,0.28720000
+popqa,PopQA,SSRL,960,0.29620001
+popqa,PopQA,SSRL,976,0.30160001
+popqa,PopQA,SSRL,992,0.30340001
+popqa,PopQA,SSRL,1008,0.29260001
+popqa,PopQA,SSRL,1024,0.28900000
+popqa,PopQA,SSRL,1040,0.29080001
+popqa,PopQA,SSRL,1056,0.32679999
+popqa,PopQA,SSRL,1072,0.30700001
+popqa,PopQA,SSRL,1088,0.31240001
+popqa,PopQA,SSRL,1104,0.30700001
+popqa,PopQA,SSRL,1120,0.31780002
+popqa,PopQA,SSRL,1136,0.31600001
+popqa,PopQA,SSRL,1152,0.30340001
+popqa,PopQA,SSRL,1168,0.31060001
+popqa,PopQA,SSRL,1184,0.31240001
+popqa,PopQA,SSRL,1200,0.30880001
+popqa,PopQA,SSRL,1216,0.31240001
+popqa,PopQA,SSRL,1232,0.30340001
+popqa,PopQA,SSRL,1248,0.31420001
+popqa,PopQA,SSRL,1264,0.30160001
+popqa,PopQA,SSRL,1280,0.30880001
+popqa,PopQA,SSRL,1296,0.30340001
+popqa,PopQA,SSRL,1312,0.31240001
+popqa,PopQA,SSRL,1324,0.31240001
+popqa,PopQA,Reflection-tuned SSRL (Ours),0,0.30700001
+popqa,PopQA,Reflection-tuned SSRL (Ours),16,0.30340001
+popqa,PopQA,Reflection-tuned SSRL (Ours),32,0.30340001
+popqa,PopQA,Reflection-tuned SSRL (Ours),48,0.30880001
+popqa,PopQA,Reflection-tuned SSRL (Ours),64,0.30160001
+popqa,PopQA,Reflection-tuned SSRL (Ours),80,0.29800001
+popqa,PopQA,Reflection-tuned SSRL (Ours),96,0.30880001
+popqa,PopQA,Reflection-tuned SSRL (Ours),112,0.31240001
+popqa,PopQA,Reflection-tuned SSRL (Ours),128,0.32319999
+popqa,PopQA,Reflection-tuned SSRL (Ours),144,0.32679999
+popqa,PopQA,Reflection-tuned SSRL (Ours),160,0.32499999
+popqa,PopQA,Reflection-tuned SSRL (Ours),176,0.31600001
+popqa,PopQA,Reflection-tuned SSRL (Ours),192,0.32139999
+popqa,PopQA,Reflection-tuned SSRL (Ours),208,0.32319999
+popqa,PopQA,Reflection-tuned SSRL (Ours),224,0.31420001
+popqa,PopQA,Reflection-tuned SSRL (Ours),240,0.31780002
+popqa,PopQA,Reflection-tuned SSRL (Ours),256,0.31600001
+popqa,PopQA,Reflection-tuned SSRL (Ours),272,0.31600001
+popqa,PopQA,Reflection-tuned SSRL (Ours),288,0.32679999
+popqa,PopQA,Reflection-tuned SSRL (Ours),304,0.32679999
+popqa,PopQA,Reflection-tuned SSRL (Ours),320,0.31960002
+popqa,PopQA,Reflection-tuned SSRL (Ours),336,0.32859999
+popqa,PopQA,Reflection-tuned SSRL (Ours),352,0.33399999
+popqa,PopQA,Reflection-tuned SSRL (Ours),368,0.33579999
+popqa,PopQA,Reflection-tuned SSRL (Ours),384,0.33579999
+popqa,PopQA,Reflection-tuned SSRL (Ours),400,0.31240001
+popqa,PopQA,Reflection-tuned SSRL (Ours),416,0.32859999
+popqa,PopQA,Reflection-tuned SSRL (Ours),432,0.32679999
+popqa,PopQA,Reflection-tuned SSRL (Ours),448,0.33399999
+popqa,PopQA,Reflection-tuned SSRL (Ours),464,0.32499999
+popqa,PopQA,Reflection-tuned SSRL (Ours),480,0.33219999
+popqa,PopQA,Reflection-tuned SSRL (Ours),496,0.32319999
+popqa,PopQA,Reflection-tuned SSRL (Ours),512,0.31960002
+popqa,PopQA,Reflection-tuned SSRL (Ours),528,0.32679999
+popqa,PopQA,Reflection-tuned SSRL (Ours),544,0.32679999
+popqa,PopQA,Reflection-tuned SSRL (Ours),560,0.32319999
+popqa,PopQA,Reflection-tuned SSRL (Ours),576,0.33939999
+popqa,PopQA,Reflection-tuned SSRL (Ours),592,0.33579999
+popqa,PopQA,Reflection-tuned SSRL (Ours),608,0.34119999
+popqa,PopQA,Reflection-tuned SSRL (Ours),624,0.32859999
+popqa,PopQA,Reflection-tuned SSRL (Ours),640,0.31060001
+popqa,PopQA,Reflection-tuned SSRL (Ours),656,0.32319999
+popqa,PopQA,Reflection-tuned SSRL (Ours),672,0.34119999
+popqa,PopQA,Reflection-tuned SSRL (Ours),688,0.33759999
+popqa,PopQA,Reflection-tuned SSRL (Ours),704,0.33219999
+popqa,PopQA,Reflection-tuned SSRL (Ours),720,0.31060001
+popqa,PopQA,Reflection-tuned SSRL (Ours),736,0.31960002
+popqa,PopQA,Reflection-tuned SSRL (Ours),752,0.32499999
+popqa,PopQA,Reflection-tuned SSRL (Ours),768,0.32859999
+popqa,PopQA,Reflection-tuned SSRL (Ours),784,0.32499999
+popqa,PopQA,Reflection-tuned SSRL (Ours),800,0.32319999
+popqa,PopQA,Reflection-tuned SSRL (Ours),816,0.31780002
+popqa,PopQA,Reflection-tuned SSRL (Ours),832,0.31060001
+popqa,PopQA,Reflection-tuned SSRL (Ours),848,0.32319999
+popqa,PopQA,Reflection-tuned SSRL (Ours),864,0.32679999
+popqa,PopQA,Reflection-tuned SSRL (Ours),880,0.34119999
+popqa,PopQA,Reflection-tuned SSRL (Ours),896,0.33219999
+popqa,PopQA,Reflection-tuned SSRL (Ours),912,0.32499999
+popqa,PopQA,Reflection-tuned SSRL (Ours),928,0.33399999
+popqa,PopQA,Reflection-tuned SSRL (Ours),944,0.33759999
+popqa,PopQA,Reflection-tuned SSRL (Ours),960,0.32859999
+popqa,PopQA,Reflection-tuned SSRL (Ours),976,0.33579999
+popqa,PopQA,Reflection-tuned SSRL (Ours),992,0.33939999
+popqa,PopQA,Reflection-tuned SSRL (Ours),1008,0.34480000
+popqa,PopQA,Reflection-tuned SSRL (Ours),1024,0.33219999
+popqa,PopQA,Reflection-tuned SSRL (Ours),1040,0.34660000
+popqa,PopQA,Reflection-tuned SSRL (Ours),1056,0.34119999
+popqa,PopQA,Reflection-tuned SSRL (Ours),1072,0.32859999
+popqa,PopQA,Reflection-tuned SSRL (Ours),1088,0.33399999
+popqa,PopQA,Reflection-tuned SSRL (Ours),1104,0.32679999
+popqa,PopQA,Reflection-tuned SSRL (Ours),1120,0.34119999
+popqa,PopQA,Reflection-tuned SSRL (Ours),1136,0.34119999
+popqa,PopQA,Reflection-tuned SSRL (Ours),1152,0.33579999
+popqa,PopQA,Reflection-tuned SSRL (Ours),1168,0.34099999
+popqa,PopQA,Reflection-tuned SSRL (Ours),1184,0.33019999
+popqa,PopQA,Reflection-tuned SSRL (Ours),1200,0.34639999
+popqa,PopQA,Reflection-tuned SSRL (Ours),1216,0.34660000
+popqa,PopQA,Reflection-tuned SSRL (Ours),1232,0.32840002
+popqa,PopQA,Reflection-tuned SSRL (Ours),1248,0.33219999
+popqa,PopQA,Reflection-tuned SSRL (Ours),1264,0.32139999
+popqa,PopQA,Reflection-tuned SSRL (Ours),1280,0.33939999
+popqa,PopQA,Reflection-tuned SSRL (Ours),1296,0.33759999
+popqa,PopQA,Reflection-tuned SSRL (Ours),1312,0.33399999
+popqa,PopQA,Reflection-tuned SSRL (Ours),1324,0.33219999
+musique,MuSiQue,SSRL,0,0.04575333
+musique,MuSiQue,SSRL,16,0.07561667
+musique,MuSiQue,SSRL,32,0.12033000
+musique,MuSiQue,SSRL,48,0.13570000
+musique,MuSiQue,SSRL,64,0.13740000
+musique,MuSiQue,SSRL,80,0.12700000
+musique,MuSiQue,SSRL,96,0.15060000
+musique,MuSiQue,SSRL,112,0.15000001
+musique,MuSiQue,SSRL,128,0.15000001
+musique,MuSiQue,SSRL,144,0.15019999
+musique,MuSiQue,SSRL,160,0.14640000
+musique,MuSiQue,SSRL,176,0.14680000
+musique,MuSiQue,SSRL,192,0.15940000
+musique,MuSiQue,SSRL,208,0.14860000
+musique,MuSiQue,SSRL,224,0.14320000
+musique,MuSiQue,SSRL,240,0.13780001
+musique,MuSiQue,SSRL,256,0.14680000
+musique,MuSiQue,SSRL,272,0.14320000
+musique,MuSiQue,SSRL,288,0.15040000
+musique,MuSiQue,SSRL,304,0.15220000
+musique,MuSiQue,SSRL,320,0.15760000
+musique,MuSiQue,SSRL,336,0.15580000
+musique,MuSiQue,SSRL,352,0.15400000
+musique,MuSiQue,SSRL,368,0.16120000
+musique,MuSiQue,SSRL,384,0.14680000
+musique,MuSiQue,SSRL,400,0.15940000
+musique,MuSiQue,SSRL,416,0.14860000
+musique,MuSiQue,SSRL,432,0.15400000
+musique,MuSiQue,SSRL,448,0.15040000
+musique,MuSiQue,SSRL,464,0.14500000
+musique,MuSiQue,SSRL,480,0.15040000
+musique,MuSiQue,SSRL,496,0.15940000
+musique,MuSiQue,SSRL,512,0.14680000
+musique,MuSiQue,SSRL,528,0.13960001
+musique,MuSiQue,SSRL,544,0.15040000
+musique,MuSiQue,SSRL,560,0.14500000
+musique,MuSiQue,SSRL,576,0.15220000
+musique,MuSiQue,SSRL,592,0.15220000
+musique,MuSiQue,SSRL,608,0.15040000
+musique,MuSiQue,SSRL,624,0.15040000
+musique,MuSiQue,SSRL,640,0.15400000
+musique,MuSiQue,SSRL,656,0.14860000
+musique,MuSiQue,SSRL,672,0.15040000
+musique,MuSiQue,SSRL,688,0.15220000
+musique,MuSiQue,SSRL,704,0.14500000
+musique,MuSiQue,SSRL,720,0.14480001
+musique,MuSiQue,SSRL,736,0.14840001
+musique,MuSiQue,SSRL,752,0.16300000
+musique,MuSiQue,SSRL,768,0.15220000
+musique,MuSiQue,SSRL,784,0.15040000
+musique,MuSiQue,SSRL,800,0.15220000
+musique,MuSiQue,SSRL,816,0.15220000
+musique,MuSiQue,SSRL,832,0.15580000
+musique,MuSiQue,SSRL,848,0.15760000
+musique,MuSiQue,SSRL,864,0.14100000
+musique,MuSiQue,SSRL,880,0.13780001
+musique,MuSiQue,SSRL,896,0.13600001
+musique,MuSiQue,SSRL,912,0.13960001
+musique,MuSiQue,SSRL,928,0.13780001
+musique,MuSiQue,SSRL,944,0.15760000
+musique,MuSiQue,SSRL,960,0.15400000
+musique,MuSiQue,SSRL,976,0.15400000
+musique,MuSiQue,SSRL,992,0.15220000
+musique,MuSiQue,SSRL,1008,0.14139999
+musique,MuSiQue,SSRL,1024,0.14860000
+musique,MuSiQue,SSRL,1040,0.14320000
+musique,MuSiQue,SSRL,1056,0.16100000
+musique,MuSiQue,SSRL,1072,0.15580000
+musique,MuSiQue,SSRL,1088,0.15580000
+musique,MuSiQue,SSRL,1104,0.16120000
+musique,MuSiQue,SSRL,1120,0.15940000
+musique,MuSiQue,SSRL,1136,0.16460000
+musique,MuSiQue,SSRL,1152,0.15940000
+musique,MuSiQue,SSRL,1168,0.15940000
+musique,MuSiQue,SSRL,1184,0.16300000
+musique,MuSiQue,SSRL,1200,0.16280000
+musique,MuSiQue,SSRL,1216,0.16120000
+musique,MuSiQue,SSRL,1232,0.15400000
+musique,MuSiQue,SSRL,1248,0.15040000
+musique,MuSiQue,SSRL,1264,0.14860000
+musique,MuSiQue,SSRL,1280,0.15040000
+musique,MuSiQue,SSRL,1296,0.15040000
+musique,MuSiQue,SSRL,1312,0.15220000
+musique,MuSiQue,SSRL,1324,0.15760000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),0,0.15720001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),16,0.15360001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),32,0.14660001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),48,0.14820001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),64,0.15040000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),80,0.14120001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),96,0.14660001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),112,0.14640000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),128,0.14640000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),144,0.15200000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),160,0.15019999
+musique,MuSiQue,Reflection-tuned SSRL (Ours),176,0.14840001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),192,0.15540001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),208,0.14300001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),224,0.13380000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),240,0.13560000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),256,0.14840001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),272,0.14300001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),288,0.15200000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),304,0.14840001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),320,0.13580000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),336,0.15200000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),352,0.14680000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),368,0.15400000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),384,0.14320000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),400,0.13940001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),416,0.13960001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),432,0.15040000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),448,0.15760000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),464,0.14860000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),480,0.14660001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),496,0.14120001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),512,0.13760000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),528,0.16060001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),544,0.15019999
+musique,MuSiQue,Reflection-tuned SSRL (Ours),560,0.14800000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),576,0.15200000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),592,0.14840001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),608,0.14640000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),624,0.16420001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),640,0.15160000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),656,0.15680000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),672,0.16160001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),688,0.16060001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),704,0.15899999
+musique,MuSiQue,Reflection-tuned SSRL (Ours),720,0.14760000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),736,0.15080000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),752,0.15560000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),768,0.16460000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),784,0.15880001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),800,0.15580000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),816,0.15040000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),832,0.15400000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),848,0.15760000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),864,0.15220000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),880,0.15760000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),896,0.16120000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),912,0.15200000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),928,0.15940000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),944,0.16840000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),960,0.17020001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),976,0.16280000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),992,0.15580000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1008,0.15920000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1024,0.16820000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1040,0.16640000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1056,0.16580001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1072,0.15320000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1088,0.16460000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1104,0.16460000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1120,0.15265000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1136,0.15400000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1152,0.15580000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1168,0.16300000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1184,0.16300000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1200,0.17020001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1216,0.16300000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1232,0.16480000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1248,0.17020001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1264,0.16240001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1280,0.16060001
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1296,0.16480000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1312,0.16660000
+musique,MuSiQue,Reflection-tuned SSRL (Ours),1324,0.16460000
+hotpotqa,HotpotQA,SSRL,0,0.12937000
+hotpotqa,HotpotQA,SSRL,16,0.19579190
+hotpotqa,HotpotQA,SSRL,32,0.24460761
+hotpotqa,HotpotQA,SSRL,48,0.26310000
+hotpotqa,HotpotQA,SSRL,64,0.25240001
+hotpotqa,HotpotQA,SSRL,80,0.26260000
+hotpotqa,HotpotQA,SSRL,96,0.25659999
+hotpotqa,HotpotQA,SSRL,112,0.25580001
+hotpotqa,HotpotQA,SSRL,128,0.26679999
+hotpotqa,HotpotQA,SSRL,144,0.26740000
+hotpotqa,HotpotQA,SSRL,160,0.27280000
+hotpotqa,HotpotQA,SSRL,176,0.26359999
+hotpotqa,HotpotQA,SSRL,192,0.27059999
+hotpotqa,HotpotQA,SSRL,208,0.27460000
+hotpotqa,HotpotQA,SSRL,224,0.27640000
+hotpotqa,HotpotQA,SSRL,240,0.27280000
+hotpotqa,HotpotQA,SSRL,256,0.27079999
+hotpotqa,HotpotQA,SSRL,272,0.28900000
+hotpotqa,HotpotQA,SSRL,288,0.28720000
+hotpotqa,HotpotQA,SSRL,304,0.29440001
+hotpotqa,HotpotQA,SSRL,320,0.28180000
+hotpotqa,HotpotQA,SSRL,336,0.28000000
+hotpotqa,HotpotQA,SSRL,352,0.28720000
+hotpotqa,HotpotQA,SSRL,368,0.27460000
+hotpotqa,HotpotQA,SSRL,384,0.27079999
+hotpotqa,HotpotQA,SSRL,400,0.28340000
+hotpotqa,HotpotQA,SSRL,416,0.28000000
+hotpotqa,HotpotQA,SSRL,432,0.28000000
+hotpotqa,HotpotQA,SSRL,448,0.28540000
+hotpotqa,HotpotQA,SSRL,464,0.26920000
+hotpotqa,HotpotQA,SSRL,480,0.27640000
+hotpotqa,HotpotQA,SSRL,496,0.27620000
+hotpotqa,HotpotQA,SSRL,512,0.29060000
+hotpotqa,HotpotQA,SSRL,528,0.28900000
+hotpotqa,HotpotQA,SSRL,544,0.27260000
+hotpotqa,HotpotQA,SSRL,560,0.28340000
+hotpotqa,HotpotQA,SSRL,576,0.27800000
+hotpotqa,HotpotQA,SSRL,592,0.28160000
+hotpotqa,HotpotQA,SSRL,608,0.29060000
+hotpotqa,HotpotQA,SSRL,624,0.28540000
+hotpotqa,HotpotQA,SSRL,640,0.28000000
+hotpotqa,HotpotQA,SSRL,656,0.29080001
+hotpotqa,HotpotQA,SSRL,672,0.28720000
+hotpotqa,HotpotQA,SSRL,688,0.29620001
+hotpotqa,HotpotQA,SSRL,704,0.28720000
+hotpotqa,HotpotQA,SSRL,720,0.27640000
+hotpotqa,HotpotQA,SSRL,736,0.28000000
+hotpotqa,HotpotQA,SSRL,752,0.29440001
+hotpotqa,HotpotQA,SSRL,768,0.29080001
+hotpotqa,HotpotQA,SSRL,784,0.29260001
+hotpotqa,HotpotQA,SSRL,800,0.30320001
+hotpotqa,HotpotQA,SSRL,816,0.29420000
+hotpotqa,HotpotQA,SSRL,832,0.28520000
+hotpotqa,HotpotQA,SSRL,848,0.26920000
+hotpotqa,HotpotQA,SSRL,864,0.28459999
+hotpotqa,HotpotQA,SSRL,880,0.28360000
+hotpotqa,HotpotQA,SSRL,896,0.27779999
+hotpotqa,HotpotQA,SSRL,912,0.27620000
+hotpotqa,HotpotQA,SSRL,928,0.29080001
+hotpotqa,HotpotQA,SSRL,944,0.28540000
+hotpotqa,HotpotQA,SSRL,960,0.29060000
+hotpotqa,HotpotQA,SSRL,976,0.29440001
+hotpotqa,HotpotQA,SSRL,992,0.28900000
+hotpotqa,HotpotQA,SSRL,1008,0.29080001
+hotpotqa,HotpotQA,SSRL,1024,0.27820000
+hotpotqa,HotpotQA,SSRL,1040,0.28459999
+hotpotqa,HotpotQA,SSRL,1056,0.28479999
+hotpotqa,HotpotQA,SSRL,1072,0.30160001
+hotpotqa,HotpotQA,SSRL,1088,0.28720000
+hotpotqa,HotpotQA,SSRL,1104,0.29440001
+hotpotqa,HotpotQA,SSRL,1120,0.29440001
+hotpotqa,HotpotQA,SSRL,1136,0.27980000
+hotpotqa,HotpotQA,SSRL,1152,0.28140000
+hotpotqa,HotpotQA,SSRL,1168,0.28180000
+hotpotqa,HotpotQA,SSRL,1184,0.27820000
+hotpotqa,HotpotQA,SSRL,1200,0.28180000
+hotpotqa,HotpotQA,SSRL,1216,0.29080001
+hotpotqa,HotpotQA,SSRL,1232,0.28360000
+hotpotqa,HotpotQA,SSRL,1248,0.28720000
+hotpotqa,HotpotQA,SSRL,1264,0.28900000
+hotpotqa,HotpotQA,SSRL,1280,0.28540000
+hotpotqa,HotpotQA,SSRL,1296,0.28720000
+hotpotqa,HotpotQA,SSRL,1312,0.29980001
+hotpotqa,HotpotQA,SSRL,1324,0.28720000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),0,0.27980000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),16,0.27419999
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),32,0.28340000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),48,0.28320000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),64,0.27620000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),80,0.28720000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),96,0.28360000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),112,0.27800000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),128,0.27260000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),144,0.27620000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),160,0.27059999
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),176,0.27620000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),192,0.27640000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),208,0.28180000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),224,0.28000000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),240,0.28540000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),256,0.27640000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),272,0.28180000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),288,0.28000000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),304,0.28180000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),320,0.27820000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),336,0.29080001
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),352,0.28540000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),368,0.29260001
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),384,0.28900000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),400,0.28000000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),416,0.28360000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),432,0.28360000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),448,0.28720000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),464,0.27820000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),480,0.29080001
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),496,0.27820000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),512,0.28180000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),528,0.28900000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),544,0.27820000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),560,0.27800000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),576,0.27779999
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),592,0.27980000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),608,0.27579999
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),624,0.27739999
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),640,0.28000000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),656,0.27599999
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),672,0.27959999
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),688,0.27599999
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),704,0.27559999
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),720,0.27340001
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),736,0.26859999
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),752,0.27440000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),768,0.27039999
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),784,0.27959999
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),800,0.27460000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),816,0.27980000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),832,0.27599999
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),848,0.27980000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),864,0.28880000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),880,0.28520000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),896,0.29260001
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),912,0.28880000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),928,0.29080001
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),944,0.27440000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),960,0.28000000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),976,0.28180000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),992,0.27440000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1008,0.28340000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1024,0.28880000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1040,0.29040000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1056,0.28360000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1072,0.27160001
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1088,0.28520000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1104,0.27440000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1120,0.27260000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1136,0.27280000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1152,0.27640000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1168,0.28160000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1184,0.27820000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1200,0.28540000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1216,0.27800000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1232,0.27460000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1248,0.27460000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1264,0.28720000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1280,0.28700000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1296,0.28900000
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1312,0.29620001
+hotpotqa,HotpotQA,Reflection-tuned SSRL (Ours),1324,0.29080001
+bamboogle,BamboogleQA,SSRL,0,0.14160000
+bamboogle,BamboogleQA,SSRL,16,0.25670001
+bamboogle,BamboogleQA,SSRL,32,0.33372000
+bamboogle,BamboogleQA,SSRL,48,0.32300001
+bamboogle,BamboogleQA,SSRL,64,0.30880001
+bamboogle,BamboogleQA,SSRL,80,0.30399999
+bamboogle,BamboogleQA,SSRL,96,0.30160001
+bamboogle,BamboogleQA,SSRL,112,0.30800000
+bamboogle,BamboogleQA,SSRL,128,0.27919999
+bamboogle,BamboogleQA,SSRL,144,0.26560000
+bamboogle,BamboogleQA,SSRL,160,0.28720000
+bamboogle,BamboogleQA,SSRL,176,0.31600001
+bamboogle,BamboogleQA,SSRL,192,0.30880001
+bamboogle,BamboogleQA,SSRL,208,0.30160001
+bamboogle,BamboogleQA,SSRL,224,0.28000000
+bamboogle,BamboogleQA,SSRL,240,0.27280000
+bamboogle,BamboogleQA,SSRL,256,0.27200001
+bamboogle,BamboogleQA,SSRL,272,0.29440001
+bamboogle,BamboogleQA,SSRL,288,0.30880001
+bamboogle,BamboogleQA,SSRL,304,0.30880001
+bamboogle,BamboogleQA,SSRL,320,0.27280000
+bamboogle,BamboogleQA,SSRL,336,0.28000000
+bamboogle,BamboogleQA,SSRL,352,0.27280000
+bamboogle,BamboogleQA,SSRL,368,0.30880001
+bamboogle,BamboogleQA,SSRL,384,0.30160001
+bamboogle,BamboogleQA,SSRL,400,0.28000000
+bamboogle,BamboogleQA,SSRL,416,0.30160001
+bamboogle,BamboogleQA,SSRL,432,0.30880001
+bamboogle,BamboogleQA,SSRL,448,0.29440001
+bamboogle,BamboogleQA,SSRL,464,0.28720000
+bamboogle,BamboogleQA,SSRL,480,0.27280000
+bamboogle,BamboogleQA,SSRL,496,0.27280000
+bamboogle,BamboogleQA,SSRL,512,0.26560000
+bamboogle,BamboogleQA,SSRL,528,0.26560000
+bamboogle,BamboogleQA,SSRL,544,0.28720000
+bamboogle,BamboogleQA,SSRL,560,0.27280000
+bamboogle,BamboogleQA,SSRL,576,0.29440001
+bamboogle,BamboogleQA,SSRL,592,0.28000000
+bamboogle,BamboogleQA,SSRL,608,0.30160001
+bamboogle,BamboogleQA,SSRL,624,0.30880001
+bamboogle,BamboogleQA,SSRL,640,0.30160001
+bamboogle,BamboogleQA,SSRL,656,0.30880001
+bamboogle,BamboogleQA,SSRL,672,0.29440001
+bamboogle,BamboogleQA,SSRL,688,0.33039999
+bamboogle,BamboogleQA,SSRL,704,0.29440001
+bamboogle,BamboogleQA,SSRL,720,0.26560000
+bamboogle,BamboogleQA,SSRL,736,0.25119999
+bamboogle,BamboogleQA,SSRL,752,0.32319999
+bamboogle,BamboogleQA,SSRL,768,0.31600001
+bamboogle,BamboogleQA,SSRL,784,0.28000000
+bamboogle,BamboogleQA,SSRL,800,0.25839999
+bamboogle,BamboogleQA,SSRL,816,0.28000000
+bamboogle,BamboogleQA,SSRL,832,0.28720000
+bamboogle,BamboogleQA,SSRL,848,0.30880001
+bamboogle,BamboogleQA,SSRL,864,0.29440001
+bamboogle,BamboogleQA,SSRL,880,0.30160001
+bamboogle,BamboogleQA,SSRL,896,0.29440001
+bamboogle,BamboogleQA,SSRL,912,0.30160001
+bamboogle,BamboogleQA,SSRL,928,0.29440001
+bamboogle,BamboogleQA,SSRL,944,0.25839999
+bamboogle,BamboogleQA,SSRL,960,0.25839999
+bamboogle,BamboogleQA,SSRL,976,0.28000000
+bamboogle,BamboogleQA,SSRL,992,0.28000000
+bamboogle,BamboogleQA,SSRL,1008,0.28000000
+bamboogle,BamboogleQA,SSRL,1024,0.27280000
+bamboogle,BamboogleQA,SSRL,1040,0.27280000
+bamboogle,BamboogleQA,SSRL,1056,0.32319999
+bamboogle,BamboogleQA,SSRL,1072,0.30160001
+bamboogle,BamboogleQA,SSRL,1088,0.31600001
+bamboogle,BamboogleQA,SSRL,1104,0.30880001
+bamboogle,BamboogleQA,SSRL,1120,0.29440001
+bamboogle,BamboogleQA,SSRL,1136,0.26560000
+bamboogle,BamboogleQA,SSRL,1152,0.28720000
+bamboogle,BamboogleQA,SSRL,1168,0.29440001
+bamboogle,BamboogleQA,SSRL,1184,0.23680000
+bamboogle,BamboogleQA,SSRL,1200,0.25119999
+bamboogle,BamboogleQA,SSRL,1216,0.27280000
+bamboogle,BamboogleQA,SSRL,1232,0.28000000
+bamboogle,BamboogleQA,SSRL,1248,0.26560000
+bamboogle,BamboogleQA,SSRL,1264,0.25119999
+bamboogle,BamboogleQA,SSRL,1280,0.26560000
+bamboogle,BamboogleQA,SSRL,1296,0.28000000
+bamboogle,BamboogleQA,SSRL,1312,0.26560000
+bamboogle,BamboogleQA,SSRL,1324,0.27280000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),0,0.31600001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),16,0.30160001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),32,0.30160001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),48,0.28720000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),64,0.28720000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),80,0.29440001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),96,0.28720000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),112,0.29440001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),128,0.30160001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),144,0.29440001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),160,0.30880001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),176,0.30160001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),192,0.30160001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),208,0.30160001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),224,0.28000000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),240,0.30160001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),256,0.30880001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),272,0.29440001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),288,0.32240000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),304,0.31520000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),320,0.31520000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),336,0.30160001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),352,0.25760001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),368,0.25760001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),384,0.28000000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),400,0.26560000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),416,0.27280000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),432,0.27280000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),448,0.26560000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),464,0.29440001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),480,0.25040001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),496,0.24400000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),512,0.27919999
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),528,0.30080000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),544,0.29359999
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),560,0.28000000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),576,0.26400000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),592,0.27919999
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),608,0.30160001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),624,0.27919999
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),640,0.26480001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),656,0.29440001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),672,0.31520000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),688,0.31520000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),704,0.27200001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),720,0.23600000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),736,0.27919999
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),752,0.31600001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),768,0.33759999
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),784,0.31600001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),800,0.31600001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),816,0.28000000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),832,0.28720000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),848,0.28720000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),864,0.27280000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),880,0.28000000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),896,0.31600001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),912,0.28720000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),928,0.31600001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),944,0.30880001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),960,0.30880001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),976,0.29440001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),992,0.30160001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1008,0.28720000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1024,0.30880001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1040,0.34400001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1056,0.33039999
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1072,0.29440001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1088,0.30160001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1104,0.29440001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1120,0.25440001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1136,0.25839999
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1152,0.25839999
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1168,0.31600001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1184,0.28720000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1200,0.30160001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1216,0.29440001
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1232,0.27280000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1248,0.26560000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1264,0.25839999
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1280,0.28720000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1296,0.27280000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1312,0.28000000
+bamboogle,BamboogleQA,Reflection-tuned SSRL (Ours),1324,0.26560000
+nq,NQ,SSRL,0,0.07467500
+nq,NQ,SSRL,16,0.14252262
+nq,NQ,SSRL,32,0.20457762
+nq,NQ,SSRL,48,0.23840000
+nq,NQ,SSRL,64,0.22780000
+nq,NQ,SSRL,80,0.24500000
+nq,NQ,SSRL,96,0.23800001
+nq,NQ,SSRL,112,0.23999999
+nq,NQ,SSRL,128,0.24340001
+nq,NQ,SSRL,144,0.25839999
+nq,NQ,SSRL,160,0.27440000
+nq,NQ,SSRL,176,0.26179999
+nq,NQ,SSRL,192,0.28180000
+nq,NQ,SSRL,208,0.28360000
+nq,NQ,SSRL,224,0.26380000
+nq,NQ,SSRL,240,0.27440000
+nq,NQ,SSRL,256,0.27460000
+nq,NQ,SSRL,272,0.28720000
+nq,NQ,SSRL,288,0.27460000
+nq,NQ,SSRL,304,0.28720000
+nq,NQ,SSRL,320,0.29080001
+nq,NQ,SSRL,336,0.28720000
+nq,NQ,SSRL,352,0.27460000
+nq,NQ,SSRL,368,0.28360000
+nq,NQ,SSRL,384,0.28520000
+nq,NQ,SSRL,400,0.30160001
+nq,NQ,SSRL,416,0.28720000
+nq,NQ,SSRL,432,0.26560000
+nq,NQ,SSRL,448,0.29440001
+nq,NQ,SSRL,464,0.28180000
+nq,NQ,SSRL,480,0.29080001
+nq,NQ,SSRL,496,0.28540000
+nq,NQ,SSRL,512,0.28900000
+nq,NQ,SSRL,528,0.28900000
+nq,NQ,SSRL,544,0.28720000
+nq,NQ,SSRL,560,0.28180000
+nq,NQ,SSRL,576,0.28720000
+nq,NQ,SSRL,592,0.28180000
+nq,NQ,SSRL,608,0.29600000
+nq,NQ,SSRL,624,0.29800001
+nq,NQ,SSRL,640,0.29800001
+nq,NQ,SSRL,656,0.28720000
+nq,NQ,SSRL,672,0.29260001
+nq,NQ,SSRL,688,0.29080001
+nq,NQ,SSRL,704,0.29080001
+nq,NQ,SSRL,720,0.29440001
+nq,NQ,SSRL,736,0.29440001
+nq,NQ,SSRL,752,0.29260001
+nq,NQ,SSRL,768,0.28720000
+nq,NQ,SSRL,784,0.29800001
+nq,NQ,SSRL,800,0.29800001
+nq,NQ,SSRL,816,0.29440001
+nq,NQ,SSRL,832,0.29440001
+nq,NQ,SSRL,848,0.29420000
+nq,NQ,SSRL,864,0.29600000
+nq,NQ,SSRL,880,0.30700001
+nq,NQ,SSRL,896,0.30700001
+nq,NQ,SSRL,912,0.30880001
+nq,NQ,SSRL,928,0.30520001
+nq,NQ,SSRL,944,0.29260001
+nq,NQ,SSRL,960,0.31220001
+nq,NQ,SSRL,976,0.30140001
+nq,NQ,SSRL,992,0.29060000
+nq,NQ,SSRL,1008,0.29260001
+nq,NQ,SSRL,1024,0.28540000
+nq,NQ,SSRL,1040,0.29420000
+nq,NQ,SSRL,1056,0.29940000
+nq,NQ,SSRL,1072,0.30160001
+nq,NQ,SSRL,1088,0.29260001
+nq,NQ,SSRL,1104,0.29440001
+nq,NQ,SSRL,1120,0.29800001
+nq,NQ,SSRL,1136,0.30160001
+nq,NQ,SSRL,1152,0.30160001
+nq,NQ,SSRL,1168,0.30160001
+nq,NQ,SSRL,1184,0.30880001
+nq,NQ,SSRL,1200,0.31060001
+nq,NQ,SSRL,1216,0.30520001
+nq,NQ,SSRL,1232,0.30700001
+nq,NQ,SSRL,1248,0.30700001
+nq,NQ,SSRL,1264,0.31060001
+nq,NQ,SSRL,1280,0.30340001
+nq,NQ,SSRL,1296,0.31420001
+nq,NQ,SSRL,1312,0.31060001
+nq,NQ,SSRL,1324,0.31420001
+nq,NQ,Reflection-tuned SSRL (Ours),0,0.26740000
+nq,NQ,Reflection-tuned SSRL (Ours),16,0.27260000
+nq,NQ,Reflection-tuned SSRL (Ours),32,0.27460000
+nq,NQ,Reflection-tuned SSRL (Ours),48,0.27100000
+nq,NQ,Reflection-tuned SSRL (Ours),64,0.27460000
+nq,NQ,Reflection-tuned SSRL (Ours),80,0.27100000
+nq,NQ,Reflection-tuned SSRL (Ours),96,0.26740000
+nq,NQ,Reflection-tuned SSRL (Ours),112,0.27100000
+nq,NQ,Reflection-tuned SSRL (Ours),128,0.27280000
+nq,NQ,Reflection-tuned SSRL (Ours),144,0.26740000
+nq,NQ,Reflection-tuned SSRL (Ours),160,0.25839999
+nq,NQ,Reflection-tuned SSRL (Ours),176,0.26920000
+nq,NQ,Reflection-tuned SSRL (Ours),192,0.27820000
+nq,NQ,Reflection-tuned SSRL (Ours),208,0.27640000
+nq,NQ,Reflection-tuned SSRL (Ours),224,0.28180000
+nq,NQ,Reflection-tuned SSRL (Ours),240,0.26380000
+nq,NQ,Reflection-tuned SSRL (Ours),256,0.26560000
+nq,NQ,Reflection-tuned SSRL (Ours),272,0.27100000
+nq,NQ,Reflection-tuned SSRL (Ours),288,0.26380000
+nq,NQ,Reflection-tuned SSRL (Ours),304,0.27280000
+nq,NQ,Reflection-tuned SSRL (Ours),320,0.26920000
+nq,NQ,Reflection-tuned SSRL (Ours),336,0.27820000
+nq,NQ,Reflection-tuned SSRL (Ours),352,0.28540000
+nq,NQ,Reflection-tuned SSRL (Ours),368,0.27640000
+nq,NQ,Reflection-tuned SSRL (Ours),384,0.28180000
+nq,NQ,Reflection-tuned SSRL (Ours),400,0.28000000
+nq,NQ,Reflection-tuned SSRL (Ours),416,0.28000000
+nq,NQ,Reflection-tuned SSRL (Ours),432,0.27460000
+nq,NQ,Reflection-tuned SSRL (Ours),448,0.27100000
+nq,NQ,Reflection-tuned SSRL (Ours),464,0.26920000
+nq,NQ,Reflection-tuned SSRL (Ours),480,0.27460000
+nq,NQ,Reflection-tuned SSRL (Ours),496,0.28540000
+nq,NQ,Reflection-tuned SSRL (Ours),512,0.28540000
+nq,NQ,Reflection-tuned SSRL (Ours),528,0.28360000
+nq,NQ,Reflection-tuned SSRL (Ours),544,0.28000000
+nq,NQ,Reflection-tuned SSRL (Ours),560,0.28000000
+nq,NQ,Reflection-tuned SSRL (Ours),576,0.27260000
+nq,NQ,Reflection-tuned SSRL (Ours),592,0.28000000
+nq,NQ,Reflection-tuned SSRL (Ours),608,0.27079999
+nq,NQ,Reflection-tuned SSRL (Ours),624,0.28900000
+nq,NQ,Reflection-tuned SSRL (Ours),640,0.26380000
+nq,NQ,Reflection-tuned SSRL (Ours),656,0.27280000
+nq,NQ,Reflection-tuned SSRL (Ours),672,0.27640000
+nq,NQ,Reflection-tuned SSRL (Ours),688,0.27980000
+nq,NQ,Reflection-tuned SSRL (Ours),704,0.28180000
+nq,NQ,Reflection-tuned SSRL (Ours),720,0.28180000
+nq,NQ,Reflection-tuned SSRL (Ours),736,0.28360000
+nq,NQ,Reflection-tuned SSRL (Ours),752,0.29260001
+nq,NQ,Reflection-tuned SSRL (Ours),768,0.29080001
+nq,NQ,Reflection-tuned SSRL (Ours),784,0.27980000
+nq,NQ,Reflection-tuned SSRL (Ours),800,0.28180000
+nq,NQ,Reflection-tuned SSRL (Ours),816,0.28520000
+nq,NQ,Reflection-tuned SSRL (Ours),832,0.29080001
+nq,NQ,Reflection-tuned SSRL (Ours),848,0.29260001
+nq,NQ,Reflection-tuned SSRL (Ours),864,0.28900000
+nq,NQ,Reflection-tuned SSRL (Ours),880,0.28900000
+nq,NQ,Reflection-tuned SSRL (Ours),896,0.28180000
+nq,NQ,Reflection-tuned SSRL (Ours),912,0.28900000
+nq,NQ,Reflection-tuned SSRL (Ours),928,0.28880000
+nq,NQ,Reflection-tuned SSRL (Ours),944,0.28540000
+nq,NQ,Reflection-tuned SSRL (Ours),960,0.28180000
+nq,NQ,Reflection-tuned SSRL (Ours),976,0.28540000
+nq,NQ,Reflection-tuned SSRL (Ours),992,0.29260001
+nq,NQ,Reflection-tuned SSRL (Ours),1008,0.29440001
+nq,NQ,Reflection-tuned SSRL (Ours),1024,0.27800000
+nq,NQ,Reflection-tuned SSRL (Ours),1040,0.28180000
+nq,NQ,Reflection-tuned SSRL (Ours),1056,0.29800001
+nq,NQ,Reflection-tuned SSRL (Ours),1072,0.29420000
+nq,NQ,Reflection-tuned SSRL (Ours),1088,0.29240000
+nq,NQ,Reflection-tuned SSRL (Ours),1104,0.28700000
+nq,NQ,Reflection-tuned SSRL (Ours),1120,0.29754999
+nq,NQ,Reflection-tuned SSRL (Ours),1136,0.28360000
+nq,NQ,Reflection-tuned SSRL (Ours),1152,0.29580000
+nq,NQ,Reflection-tuned SSRL (Ours),1168,0.29440001
+nq,NQ,Reflection-tuned SSRL (Ours),1184,0.29060000
+nq,NQ,Reflection-tuned SSRL (Ours),1200,0.29600000
+nq,NQ,Reflection-tuned SSRL (Ours),1216,0.29400000
+nq,NQ,Reflection-tuned SSRL (Ours),1232,0.28700000
+nq,NQ,Reflection-tuned SSRL (Ours),1248,0.28900000
+nq,NQ,Reflection-tuned SSRL (Ours),1264,0.28180000
+nq,NQ,Reflection-tuned SSRL (Ours),1280,0.28320000
+nq,NQ,Reflection-tuned SSRL (Ours),1296,0.28180000
+nq,NQ,Reflection-tuned SSRL (Ours),1312,0.28900000
+nq,NQ,Reflection-tuned SSRL (Ours),1324,0.29260001
